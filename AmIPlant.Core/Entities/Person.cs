@@ -7,4 +7,3 @@ public class Person
     public float Weight { get; set; }
     public DateOnly WentVegan { get; set; }
 }
-
