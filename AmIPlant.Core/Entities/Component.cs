@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace FMinus.AmIPlant.Core.Entities
+﻿namespace AmIPlant.Core.Entities
 {
 	public class Component
 	{

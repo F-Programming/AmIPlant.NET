@@ -1,7 +1,7 @@
 ﻿using System;
 using FMinus.AmIPlant.Core.Entities;
 
-namespace FMinus.AmIPlant.CLI;
+namespace AmIPlant.CLI;
 
 class Program
 {
@@ -9,9 +9,9 @@ class Program
     {
         Console.WriteLine("Hello World");
 
-        float w = float.Parse(args[0]);
-        float h = float.Parse(args[1]);
-        DateOnly v = DateOnly.Parse(args[2]);
+        var w = float.Parse(args[0]);
+        var h = float.Parse(args[1]);
+        var v = DateOnly.Parse(args[2]);
 
         Person person = new()
         {
