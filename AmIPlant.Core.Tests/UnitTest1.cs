@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace AmIPlant.Tests;
+namespace AmIPlant.Core.Tests;
 
 public class Tests
 {
