@@ -1,5 +1,5 @@
 ﻿using System;
-using FMinus.AmIPlant.Core.Entities;
+using AmIPlant.Core.Entities;
 
 namespace AmIPlant.CLI;
 
