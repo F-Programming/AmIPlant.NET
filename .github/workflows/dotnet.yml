@@ -48,7 +48,7 @@ jobs:
     needs: build
     if: ${{ github.event_name != 'pull_request' }} # don't upload artifacts for PRs
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         fetch-depth: 0
     - uses: actions/cache@v3
