@@ -1,5 +1,4 @@
-﻿using System;
-using AmIPlant.Core.Entities;
+﻿using AmIPlant.Core.Entities;
 
 namespace AmIPlant.CLI;
 
