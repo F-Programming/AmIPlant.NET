@@ -1,8 +1,7 @@
-﻿namespace AmIPlant.Core.Entities
+﻿namespace AmIPlant.Core.Entities;
+
+public enum Gender
 {
-    public enum Gender
-	{
-		Male,
-		Female
-	}
+    Male,
+    Female
 }
